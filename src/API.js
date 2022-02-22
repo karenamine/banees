@@ -23,7 +23,7 @@ const apiSettings = {
     return await (await fetch(endpoint)).json();
   },
   fetchMovie: async movieId => {
-    const endpoint = `${API_URL}movie/${movieId}?api_key=${API_KEY}`;
+    const endpoint = `${API_URL}movie/${movieId}?api_key=bb01da1cb645580f0a6b5367bfcf46f3`;
     return await (await fetch(endpoint)).json();
   },
   fetchCredits: async movieId => {
